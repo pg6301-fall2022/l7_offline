@@ -1,0 +1,17 @@
+{
+  "name": "l7_offline",
+  "version": "1.0.0",
+  "description": "Lecture 7 - Recap and tidy up - Plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  }
+}
