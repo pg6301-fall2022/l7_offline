@@ -33,3 +33,6 @@ Cheat sheet:
   * npm install -D @babel/preset-env @babel/preset-react
   * separate functions that are to be tested (discussion)
 
+* Adding some tests (server)
+  * npm install -D jest supertest dotenv babel-jest @babel/preset-env
+  * 

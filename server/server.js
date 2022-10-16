@@ -1,7 +1,10 @@
 import express from "express";
 import * as path from "path";
+import { loginPath } from "./login.js";
+import bodyParser from "body-parser";
 
 const app = express();
+app.use(bodyParser.json());
 
 app.use(express.static("../client/dist/"));
 app.use((req, res, next) => {
@@ -12,15 +15,7 @@ app.use((req, res, next) => {
   }
 });
 
-app.get("/api/login", (req, res) => {
-  function respond() {
-    res.json({
-      username: "admin",
-      fullname: "Testsson",
-    });
-  }
-  setTimeout(respond, 3000);
-});
+app.use("/api/login", loginPath);
 
 const server = app.listen(process.env.PORT || 3000, () => {
   console.log(`Server started on http://localhost:${server.address().port}`);
