@@ -1,8 +1,8 @@
 Lecture 7 - Recap and tidy up - Plan
 
-* [ ] Create basic server
-* [ ] Create basic client
-* [ ] Serve React from Express
+* [x] Create basic server
+* [x] Create basic client
+* [x] Serve React from Express
 * [ ] Deployment
 * [ ] /GET
 * [ ] /POST
