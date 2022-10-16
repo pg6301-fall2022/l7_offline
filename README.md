@@ -31,5 +31,5 @@ Cheat sheet:
 * Adding some tests (client)
   * npm install -D jest babel-jest jsdom jest-environment-jsdom
   * npm install -D @babel/preset-env @babel/preset-react
-  * 
+  * separate functions that are to be tested (discussion)
 

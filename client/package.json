@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npm install --include=dev && parcel build index.html",
     "dev": "parcel watch index.html",
+    "verify": "jest --collectCoverage",
     "test": "jest"
   },
   "keywords": [],
@@ -40,7 +41,7 @@
       "IS_REACT_ACT_ENVIRONMENT": true
     },
     "collectCoverageFrom": [
-      ".jsx"
+      "*.jsx"
     ]
   }
 }

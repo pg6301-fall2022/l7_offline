@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 
 import {createRoot} from "react-dom/client";
 import {act, Simulate} from "react-dom/test-utils";
-import {Login} from "../index";
+import {Login} from "../login";
 
 
 describe("client test suite", () => {

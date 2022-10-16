@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { Login } from "./login";
 
 const element = document.getElementById("app");
 const root = createRoot(element);
@@ -73,10 +74,6 @@ function FrontPage() {
       )}
     </div>
   );
-}
-
-export function Login() {
-  return <h1> Welcome to login </h1>;
 }
 
 function Application() {
