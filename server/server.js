@@ -13,10 +13,13 @@ app.use((req, res, next) => {
 });
 
 app.get("/api/login", (req, res) => {
-  res.json({
-    username: "admin",
-    fullname: "Testsson",
-  });
+  function respond() {
+    res.json({
+      username: "admin",
+      fullname: "Testsson",
+    });
+  }
+  setTimeout(respond, 3000);
 });
 
 const server = app.listen(process.env.PORT || 3000, () => {

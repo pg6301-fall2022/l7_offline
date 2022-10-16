@@ -3,8 +3,13 @@ Lecture 7 - Recap and tidy up - Plan
 * [x] Create basic server
 * [x] Create basic client
 * [x] Serve React from Express
-* [ ] Deployment
-* [ ] /GET
+* [x] Deployment preparations
+  * [x] prettier
+  * [x] husky
+* [x] /GET
+  * [x] getting data from server (fetch, fetchJSON)
+  * [x] loading and handling loading time
+  * [x] handling errors
 * [ ] /POST
 
 
@@ -22,3 +27,9 @@ Cheat sheet:
   * npm init -y
   * npm install -D parcel
   * npm install react react-dom react-router-dom
+
+* Adding some tests (client)
+  * npm install -D jest babel-jest jsdom jest-environment-jsdom
+  * npm install -D @babel/preset-env @babel/preset-react
+  * 
+
